@@ -100,8 +100,10 @@
             // 
             // in_tb
             // 
+            this.in_tb.BackColor = System.Drawing.SystemColors.Info;
             this.in_tb.Location = new System.Drawing.Point(123, 254);
             this.in_tb.Name = "in_tb";
+            this.in_tb.ReadOnly = true;
             this.in_tb.Size = new System.Drawing.Size(113, 20);
             this.in_tb.TabIndex = 7;
             // 
